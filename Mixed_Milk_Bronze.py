@@ -12,7 +12,7 @@ while numMilk > 0:
 
 while amtNum > 0:
     bob = int(input())
-    amt.append(bob)
+    amt.append(bob) #This represents the iput for 
     amtNum -= 1
 
 while pourNum < 100:
