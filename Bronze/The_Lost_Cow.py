@@ -17,18 +17,11 @@ if farmerPos > cowPos:
 
 while True:
     total = total + abs(move) + abs(farmerPos - farmerOG)
-
     farmerPos = farmerOG + move
     print(farmerPos)
     move = move*-2
     
-    #print(move)
-    
-    if smaller == True and farmerPos >= cowPos:
-        total = total - (farmerPos - cowPos)
-        print(total)
-        break
-    if smaller == False and farmerPos <= cowPos:
-        total = total - (abs(cowPos - farmerPos))
+    if (smaller == True and farmerPos >= cowPos) or (smaller == False and farmerPos <= cowPos):
+        total = total - (abs(farmerPos - cowPos))
         print(total)
         break
