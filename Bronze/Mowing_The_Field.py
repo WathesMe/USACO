@@ -1,4 +1,7 @@
-#N = int(input())
+#Problem Link: https://usaco.org/index.php?page=viewproblem2&cpid=593
+#Solution Link: https://usaco.guide/problems/usaco-593-mowing-the-field/solution
+#Score: 10/10 - 100%
+
 directions = list() #after 4 datastructure changes i have decided on list
 t = 0
 x, y = 0, 0 #Coordinates. ok this is com;licaterd :(
